@@ -76,3 +76,4 @@ let main _ =
 
     printfn "%d checks, %d failed" checks failures
     if failures = 0 then 0 else 1
+
