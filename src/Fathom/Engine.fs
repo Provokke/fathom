@@ -112,4 +112,3 @@ module Engine =
 
         let rule = widths |> List.map (fun width -> String('-', width)) |> String.concat "  "
         line table.Headers :: rule :: List.map line table.Rows |> String.concat "\n"
-
